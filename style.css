@@ -1,0 +1,92 @@
+
+
+.main
+{
+display:flex;
+justify-content: center;
+
+}
+
+.container
+{
+background-color: aliceblue;
+width:870px;
+padding:30px;
+
+
+}
+
+.top-person
+{
+margin-bottom: 30px;
+}
+.section-title
+{
+color:gold;
+
+}
+
+.persons
+
+/* parent class */
+
+{ 
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap:30px;
+
+/* or grid-template-columns: 1fr 1fr 1fr; */
+
+}
+.person
+{
+display:flex;
+align-items:center;
+}
+
+/* image of all person */
+
+.person img
+{
+width: 56px;
+height: 56px;
+}
+.person-name{padding: 15px;}
+
+hr{border:1px solid #d1d1d1;}
+
+
+
+
+.blog-parent{display: flex;
+}
+
+.by{color:hotpink;padding-left:10px}
+.first-article{margin-left: 16px;}
+a{margin-left:8px}
+
+.first-half{display:flex;
+margin:10px}
+.first-half img{width:100Px;
+ height:100px;margin-left:10px}
+.second-half{display:flex;
+margin:10px 10px;}
+             
+.second-half img{width:100Px;
+height:100px; margin-left:10px}
+
+.last-part{display:flex;
+margin:100px 30px;
+}
+.first-image{margin-left:-80px ; padding:0 40px;}
+.first-image h3{margin:-5px}
+.first-image p{margin:-20px -5px;color:palevioletred;font-weight: bold;}
+.first-image a{text-decoration: none;}
+.first-image img{
+               height:100px;
+               width:240px;
+               padding-right:45px;
+}
+.last-part{ margin: 40px 0 ;background-color:papayawhip;
+               width:710px;
+               padding:100px; padding-right:120px}
