@@ -12,7 +12,7 @@ justify-content: center;
 background-color: aliceblue;
 width:870px;
 padding:30px;
-
+margin: 0  auto;
 
 }
 
@@ -78,7 +78,7 @@ height:100px; margin-left:10px}
 .last-part{display:flex;
 margin:100px 30px;
 }
-.first-image{margin-left:-80px ; padding:0 40px;}
+
 .first-image h3{margin:-5px}
 .first-image p{margin:-20px -5px;color:palevioletred;font-weight: bold;}
 .first-image a{text-decoration: none;}
@@ -87,6 +87,10 @@ margin:100px 30px;
                width:240px;
                padding-right:45px;
 }
-.last-part{ margin: 40px 0 ;background-color:papayawhip;
-               width:710px;
-               padding:100px; padding-right:120px}
+.last-part{ 
+                
+               background-color:papayawhip;
+               width:870px;
+               padding:30px;
+               margin: 0  auto;
+}
